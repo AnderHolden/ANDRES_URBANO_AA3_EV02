@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Bienvenido a DiseñaSalud</h2>
+    <h3>Formulario de Registro</h3>
+    <form action="Registro" method="post">
+        <label for="id_persona">ID Persona:</label>
+        <input type="text" id="id_persona" name="id_persona"><br><br>
+        
+        <label for="identificacion">Identificación:</label>
+        <input type="text" id="identificacion" name="identificacion"><br><br>
+        
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres"><br><br>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+        
+        <label for="estado_civil">Estado Civil:</label>
+        <select id="estado_civil" name="estado_civil">
+            <option value="Soltero">Soltero</option>
+            <option value="Casado">Casado</option>
+            <option value="Divorciado">Divorciado</option>
+            <option value="Viudo">Viudo</option>
+            <option value="Separado">Separado</option>
+            <option value="UnionLibre">Union Libre</option>
+        </select><br><br>
+        
+        <label for="direccion">Dirección de Residencia:</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+        
+        <label for="fec_nac">Fecha de Nacimiento:</label>
+        <input type="date" id="fec_nac" name="fec_nac"><br><br>
+        
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="MASCULINO">Masculino</option>
+            <option value="FEMENINO">Femenino</option>
+        </select><br><br>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"><br><br>
+        
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+        
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena"><br><br>
+        
+        <input type="submit" value="Registrar">
+    </form>
+    
+    <h3>O Iniciar Sesión</h3>
+    <form action="login.html">
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>
